@@ -22,10 +22,7 @@ void main(){
         scanf("%s",temp);
         strcpy(library[i].title,temp);
         getchar();
-
-
-
-
     }
     
 }
+
