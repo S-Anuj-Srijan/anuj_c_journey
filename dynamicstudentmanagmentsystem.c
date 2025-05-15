@@ -3,7 +3,7 @@
 #include<string.h>
 struct student {
     int roll_no;
-}
+};
 int add_student(struct student *students,int count,int roll){
     students=realloc(students,(1+count)*sizeof(struct student));
     students[count].roll_no=roll;
